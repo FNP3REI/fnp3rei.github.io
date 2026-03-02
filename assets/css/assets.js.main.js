@@ -1,3 +1,6 @@
+document.getElementById('year').textContent = new Date().getFullYear();
+
+
 // --- CONTACT FORM LOGIC USING FORMSPREE + AJAX ---
 const contactForm = document.getElementById("my-form");
 
@@ -47,3 +50,4 @@ if (contactForm) {
       });
   });
 }
+
