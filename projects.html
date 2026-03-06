@@ -1,75 +1,102 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Projects | Felipe Pereira</title>
-  <meta name="description" content="Projects by Felipe Pereira, with repository links and demos." />
-  <link rel="stylesheet" href="assets/css/style.css" />
-</head>
-<body>
-  <header>
-    <div class="container nav">
-      <div class="brand">
-        <span>Felipe Pereira</span>
-        <span class="badge">Projects</span>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Projects | Felipe Pereira</title>
+    <meta
+      name="description"
+      content="Projects by Felipe Pereira, with repository links and demos."
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container nav">
+        <div class="brand">
+          <span>Felipe Pereira</span>
+          <span class="badge">Projects</span>
+        </div>
+        <nav aria-label="Primary">
+          <ul>
+            <li><a href="index.html" data-page="index.html">Home</a></li>
+            <li><a href="about.html" data-page="about.html">About</a></li>
+            <li>
+              <a href="projects.html" data-page="projects.html">Projects</a>
+            </li>
+            <li><a href="contact.html" data-page="contact.html">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav aria-label="Primary">
-        <ul>
-          <li><a href="index.html" data-page="index.html">Home</a></li>
-          <li><a href="about.html" data-page="about.html">About</a></li>
-          <li><a href="projects.html" data-page="projects.html">Projects</a></li>
-          <li><a href="contact.html" data-page="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    </header>
 
-  <main class="container">
-    <section class="card" aria-label="Projects list">
-      <h1>Projects</h1>
-      <p class="subtitle">
-        Projects are coming soon. For now, feel free to check my GitHub profile:
-        <a href="https://github.com/FNP3REI" target="_blank" rel="noreferrer">github.com/FNP3REI</a>
-      </p>
+    <main class="container">
+      <section class="card" aria-label="Projects list">
+        <h1>Projects</h1>
+        <p class="subtitle">
+          New projects are coming soon. For now, feel free to check my GitHub
+          profile:
+          <a href="https://github.com/FNP3REI" target="_blank" rel="noreferrer"
+            >github.com/FNP3REI</a
+          >
+        </p>
 
-      <div class="grid" style="margin-top: 12px;">
-        <article class="card project">
-          <h3>Project (in progress)</h3>
-          <p class="meta">Tech: to be defined</p>
-          <p>Short description: coming soon.</p>
-          <div class="btnrow">
-            <a class="btn" href="https://github.com/FNP3REI" target="_blank" rel="noreferrer">GitHub</a>
-          </div>
-        </article>
+        <div class="grid" style="margin-top: 12px">
+          <article class="card project">
+            <h3>Modern Web Calculator</h3>
+            <p class="meta">Tech: HTML, CSS, JavaScript (ES6+)</p>
+            <p>
+              A professional calculator with scientific notation and history.
+            </p>
+            <div class="btnrow">
+              <!-- GitHub repository link -->
+              <a class="btn" href="https://github.com/FNP3REI/calculator" target="_blank" rel="noreferrer">GitHub</a
+              >
 
-        <article class="card project">
-          <h3>Project (in progress)</h3>
-          <p class="meta">Tech: to be defined</p>
-          <p>Short description: coming soon.</p>
-          <div class="btnrow">
-            <a class="btn" href="https://github.com/FNP3REI" target="_blank" rel="noreferrer">GitHub</a>
-          </div>
-        </article>
+              <!-- Calculator project link -->
+              <a class="btn" href="javascript:void(0)" onclick="openCalculator()" >View Demo</a>
+            </div>
+          </article>
 
-        <article class="card project">
-          <h3>Project (in progress)</h3>
-          <p class="meta">Tech: to be defined</p>
-          <p>Short description: coming soon.</p>
-          <div class="btnrow">
-            <a class="btn" href="https://github.com/FNP3REI" target="_blank" rel="noreferrer">GitHub</a>
-          </div>
-        </article>
+          <article class="card project">
+            <h3>Project 2</h3>
+            <p class="meta">Tech: to be defined</p>
+            <p>Short description: coming soon.</p>
+            <div class="btnrow">
+              <a
+                class="btn"
+                href="https://github.com/FNP3REI"
+                target="_blank"
+                rel="noreferrer"
+                >GitHub</a
+              >
+            </div>
+          </article>
+
+          <article class="card project">
+            <h3>Project 3</h3>
+            <p class="meta">Tech: to be defined</p>
+            <p>Short description: coming soon.</p>
+            <div class="btnrow">
+              <a
+                class="btn"
+                href="https://github.com/FNP3REI"
+                target="_blank"
+                rel="noreferrer"
+                >GitHub</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <small>© <span id="year"></span> Felipe Pereira</small>
       </div>
-    </section>
-  </main>
+    </footer>
 
-  <footer>
-    <div class="container">
-      <small>© <span id="year"></span> Felipe Pereira</small>
-    </div>
-  </footer>
-
-  <script src="assets/js/main.js"></script>
-</body>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

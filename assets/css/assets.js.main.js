@@ -51,3 +51,17 @@ if (contactForm) {
   });
 }
 
+function openCalculator() {
+    const width = 450; 
+    const height = 850;
+    const left = (window.screen.width / 2) - (width / 2);
+    const top = (window.screen.height / 2) - (height / 2);
+
+    window.open(
+        './calculator/index.html', // Ajuste o nome da pasta se for diferente
+        'Calculator',
+        `width=${width},height=${height},top=${top},left=${left},scrollbars=no,resizable=no`
+    );
+}
+
+

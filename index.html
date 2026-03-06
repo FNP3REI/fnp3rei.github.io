@@ -1,82 +1,104 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Felipe Pereira | Portfolio</title>
-  <meta name="description" content="Felipe Pereira's portfolio: skills, projects, and contact." />
-  <link rel="stylesheet" href="assets/css/style.css" />
-</head>
-<body>
-  <header>
-    <div class="container nav">
-      <div class="brand">
-        <span>Felipe Pereira</span>
-        <span class="badge">Full Stack Dev (in training)</span>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Felipe Pereira | Portfolio</title>
+    <meta
+      name="description"
+      content="Felipe Pereira's portfolio: skills, projects, and contact."
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container nav">
+        <div class="brand">
+          <span>Felipe Pereira</span>
+          <span class="badge">Full Stack Dev (in training)</span>
+        </div>
+        <nav aria-label="Primary">
+          <ul>
+            <li><a href="index.html" data-page="index.html">Home</a></li>
+            <li><a href="about.html" data-page="about.html">About</a></li>
+            <li>
+              <a href="projects.html" data-page="projects.html">Projects</a>
+            </li>
+            <li><a href="contact.html" data-page="contact.html">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav aria-label="Primary">
-        <ul>
-          <li><a href="index.html" data-page="index.html">Home</a></li>
-          <li><a href="about.html" data-page="about.html">About</a></li>
-          <li><a href="projects.html" data-page="projects.html">Projects</a></li>
-          <li><a href="contact.html" data-page="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    </header>
 
-  <main class="container">
-    <section class="hero" aria-label="Introduction">
-      <div class="card">
-        <h1>Hi, I’m <span style="color: var(--accent);">Felipe Pereira</span>.</h1>
-        <p class="subtitle">
-          Full Stack Developer in training, building web applications with clean code, responsive design,
-          and solid Git/GitHub workflows.
-        </p>
+    <main class="container">
+      <section class="hero" aria-label="Introduction">
+        <div class="profile-card">
+          <h1>
+            Hi, I’m <span style="color: var(--accent)">Felipe Pereira</span>.
+          </h1>
+          <p class="subtitle">
+            Full Stack Developer in training, building web applications with
+            clean code, responsive design, and solid Git/GitHub workflows.
+          </p>
 
-        <div class="btnrow" style="margin-top: 14px;">
-          <a class="btn" href="projects.html">View projects</a>
-          <a class="btn" href="https://github.com/FNP3REI" target="_blank" rel="noreferrer">GitHub</a>
-          <a class="btn" href="contact.html">Contact</a>
+          <img src="Foto-FNP.jpg" alt="Felipe Pereira" class="profile-img" />
+
+          <div class="btnrow" style="margin-top: 14px">
+            <a class="btn" href="projects.html">View projects</a>
+            <a
+              class="btn"
+              href="https://github.com/FNP3REI"
+              target="_blank"
+              rel="noreferrer"
+              >GitHub</a
+            >
+            <a class="btn" href="contact.html">Contact</a>
+          </div>
+
+          <div style="margin-top: 14px" aria-label="Skills">
+            <span class="pill">HTML</span>
+            <span class="pill">CSS</span>
+            <span class="pill">JavaScript</span>
+            <span class="pill">Git/GitHub</span>
+            <span class="pill">C#</span>
+            <span class="pill">Angular</span>
+            <span class="pill">SQL Server</span>
+            <span class="pill">VB.NET / VBA</span>
+            <span class="pill">ADO</span>
+          </div>
         </div>
 
-        <div style="margin-top: 14px;" aria-label="Skills">
-          <span class="pill">HTML</span>
-          <span class="pill">CSS</span>
-          <span class="pill">JavaScript</span>
-          <span class="pill">Git/GitHub</span>
-          <span class="pill">C#</span>
-          <span class="pill">Angular</span>
-          <span class="pill">SQL Server</span>
-          <span class="pill">VB.NET / VBA</span>
-          <span class="pill">ADO</span>
-        </div>
+        <aside class="card" aria-label="Summary">
+          <h2>Summary</h2>
+          <p class="subtitle">Portfolio published with GitHub Pages</p>
+
+          <hr
+            style="
+              border: 0;
+              border-top: 1px solid var(--border);
+              margin: 14px 0;
+            "
+          />
+
+          <h3>Focus</h3>
+          <ul>
+            <li>Hands-on projects to strengthen fundamentals</li>
+            <li>Responsive layouts and clean structure</li>
+            <li>Consistent version control with Git</li>
+          </ul>
+        </aside>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <small
+          >© <span id="year"></span> Felipe Pereira • Published on GitHub
+          Pages</small
+        >
       </div>
+    </footer>
 
-      <aside class="card" aria-label="Summary">
-        <h2>Summary</h2>
-        <p class="subtitle">
-          Portfolio published with GitHub Pages
-        </p>
-
-        <hr style="border:0;border-top:1px solid var(--border);margin:14px 0;" />
-
-        <h3>Focus</h3>
-        <ul>
-          <li>Hands-on projects to strengthen fundamentals</li>
-          <li>Responsive layouts and clean structure</li>
-          <li>Consistent version control with Git</li>
-        </ul>
-      </aside>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container">
-      <small>© <span id="year"></span> Felipe Pereira • Published on GitHub Pages</small>
-    </div>
-  </footer>
-
-  <script src="assets/js/main.js"></script>
-</body>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
