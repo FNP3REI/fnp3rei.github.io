@@ -94,7 +94,20 @@ main{
   border: 1px solid var(--border);
   border-radius: 18px;
   padding: 18px;
-  text-align: justify; 
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center; 
+}
+
+.project-img {
+  height: 180px;
+  width: auto;
+  max-width: 100%;         
+  object-fit: contain;   
+  border-radius: 12px; 
+  margin-bottom: 15px;  
+  border: 1px solid rgba(255, 255, 255, 0.1); 
 }
 
 .links {
@@ -184,12 +197,12 @@ textarea{ min-height: 140px; resize: vertical; }
 small.help{ color: var(--muted); }
 
 .profile-img {
-  width: 500px;       /* Ajuste o tamanho conforme preferir */
+  width: 500px;       
   height: 500px;
-  border-radius: 25%; /* Deixa a imagem redonda */
-  object-fit: cover;  /* Garante que a foto não fique esticada */
+  border-radius: 25%; 
+  object-fit: cover;  
   margin-bottom: 1rem;
-  border: 3px solid var(--accent); /* Opcional: borda com a cor do seu destaque */
+  border: 3px solid var(--accent); 
 }
 
 .profile-card{
@@ -200,6 +213,6 @@ small.help{ color: var(--muted); }
 }
 
 .experience-space {
-  margin-left: 20px; /* Escolha a distância exata em pixels */
+  margin-left: 20px; 
   font-style: italic;
 }
